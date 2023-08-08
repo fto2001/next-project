@@ -1,0 +1,29 @@
+.basic-box div {
+    width: 300px;
+    height: 300px;
+    background-color: red;
+}
+
+.first-box {
+    margin-left: 600px;
+}
+
+.second-box {
+    margin-left: 300px;
+}
+
+.empty:empty {
+    border: 1px solid black;
+    border-radius: 100px;
+    width: 100px;
+    height: 100px;
+}
+
+
+.hover-effect:hover::first-letter {
+    opacity: 0;
+}
+
+.hover-effect:hover::last-letter {
+    opacity: 0;
+}

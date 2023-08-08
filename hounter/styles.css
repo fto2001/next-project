@@ -1,0 +1,89 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+    font-family: 'Lexend', sans-serif;
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.blur {
+    position: absolute;
+    z-index: -100;
+}
+
+.section-title {
+    width: 424px;
+
+    line-height: 40px;
+    text-align: center;
+}
+
+.section-title__label {
+    color: #F59E0B;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.section-title__title {
+    color: #1B1C57;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.section-title__button {
+    margin-top: 20px;
+    
+    width: 118px;
+    height: 46px;
+
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 600;
+
+    background-color: #10B981;
+    border: none;
+    border-radius: 100px;
+}
+
+.section-title__button:hover {
+    cursor: pointer;
+    background-color: lightgreen;
+    color: black;
+}
